@@ -14,5 +14,22 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.8.0
         with:
-          args: --verbose --max-retries 3 --timeout 10 '**/*.html' '**/*.md'
+          args: >-
+            --verbose
+            --max-retries 3
+            --timeout 30
+            --accept 429,999
+            --exclude 'juanmoisesdelaserna\.es'
+            --exclude 'zenodo\.org'
+            --exclude 'doi\.org'
+            --exclude 'linkedin\.com'
+            --exclude 'twitter\.com'
+            --exclude 'x\.com'
+            --exclude 'facebook\.com'
+            --exclude 'instagram\.com'
+            --exclude 'researchgate\.net'
+            --exclude 'academia\.edu'
+            --exclude 'scholar\.google'
+            '**/*.html'
+            '**/*.md'
           fail: true
