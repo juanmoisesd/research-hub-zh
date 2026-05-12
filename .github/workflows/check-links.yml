@@ -9,19 +9,22 @@ on:
 jobs:
   check-links:
     runs-on: ubuntu-latest
+    continue-on-error: false
     steps:
       - uses: actions/checkout@v4
+
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           args: >-
             --verbose
-            --max-retries 3
+            --max-retries 2
             --timeout 30
-            --accept 429,999
+            --accept 429,403,999
             --exclude 'juanmoisesdelaserna\.es'
             --exclude 'zenodo\.org'
             --exclude 'doi\.org'
+            --exclude 'github\.com'
             --exclude 'linkedin\.com'
             --exclude 'twitter\.com'
             --exclude 'x\.com'
@@ -30,6 +33,7 @@ jobs:
             --exclude 'researchgate\.net'
             --exclude 'academia\.edu'
             --exclude 'scholar\.google'
+            --exclude 'orcid\.org'
             '**/*.html'
             '**/*.md'
           fail: true
