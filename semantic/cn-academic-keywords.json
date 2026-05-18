@@ -1,0 +1,173 @@
+{
+  "version": "1.0.0",
+  "description": "Multilingual academic keyword ontology — ES / EN / ZH for research-hub-zh",
+  "language_coverage": ["es", "en", "zh-Hans", "zh-Hant"],
+  "domains": ["neuroscience", "psychology", "public_health", "behavioral_economics", "open_science"],
+  "terms": [
+    {
+      "id": "concept:neuroscience",
+      "mesh_id": "D009474",
+      "en": "Neuroscience",
+      "es": "Neurociencias",
+      "zh_Hans": "神经科学",
+      "zh_Hant": "神經科學",
+      "related": ["cognitive neuroscience", "neuropsychology", "brain sciences"],
+      "confidence": 0.99,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:neuropsychology",
+      "mesh_id": "D009488",
+      "en": "Neuropsychology",
+      "es": "Neuropsicología",
+      "zh_Hans": "神经心理学",
+      "zh_Hant": "神經心理學",
+      "related": ["neuroscience", "cognitive assessment", "brain behavior"],
+      "confidence": 0.98,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:mental_health",
+      "mesh_id": "D008603",
+      "en": "Mental Health",
+      "es": "Salud Mental",
+      "zh_Hans": "心理健康",
+      "zh_Hant": "心理健康",
+      "related": ["wellbeing", "psychiatry", "psychology"],
+      "confidence": 0.99,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:behavioral_economics",
+      "mesh_id": "D000073376",
+      "en": "Behavioral Economics",
+      "es": "Economía Conductual",
+      "zh_Hans": "行为经济学",
+      "zh_Hant": "行為經濟學",
+      "semantic_equivalence": "full",
+      "cultural_notes": "Terminology consistent across mainland China and Taiwan",
+      "related": ["cognitive bias", "decision making", "nudge theory"],
+      "confidence": 0.97,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:open_science",
+      "en": "Open Science",
+      "es": "Ciencia Abierta",
+      "zh_Hans": "开放科学",
+      "zh_Hant": "開放科學",
+      "semantic_equivalence": "full",
+      "related": ["open access", "reproducibility", "FAIR data"],
+      "confidence": 0.96,
+      "source": "ROR",
+      "human_verified": true
+    },
+    {
+      "id": "concept:public_health",
+      "mesh_id": "D011634",
+      "en": "Public Health",
+      "es": "Salud Pública",
+      "zh_Hans": "公共卫生",
+      "zh_Hant": "公共衛生",
+      "related": ["epidemiology", "health policy", "community health"],
+      "confidence": 0.99,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:demography",
+      "mesh_id": "D003710",
+      "en": "Demography",
+      "es": "Demografía",
+      "zh_Hans": "人口学",
+      "zh_Hant": "人口學",
+      "related": ["population studies", "aging", "Latin America demographics"],
+      "confidence": 0.99,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:aging",
+      "mesh_id": "D000368",
+      "en": "Aging",
+      "es": "Envejecimiento",
+      "zh_Hans": "老龄化",
+      "zh_Hant": "老齡化",
+      "semantic_equivalence": "full",
+      "cultural_notes": "In mainland China 老龄化 is standard; in Taiwan 老齡化 or 高齡化 are both used",
+      "related": ["gerontology", "cognitive decline", "longevity"],
+      "confidence": 0.97,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:cognitive_neuroscience",
+      "mesh_id": "D056345",
+      "en": "Cognitive Neuroscience",
+      "es": "Neurociencia Cognitiva",
+      "zh_Hans": "认知神经科学",
+      "zh_Hant": "認知神經科學",
+      "related": ["attention", "memory", "executive function"],
+      "confidence": 0.98,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:open_data",
+      "en": "Open Data",
+      "es": "Datos Abiertos",
+      "zh_Hans": "开放数据",
+      "zh_Hant": "開放資料",
+      "semantic_equivalence": "full",
+      "related": ["FAIR principles", "data sharing", "reproducibility"],
+      "confidence": 0.98,
+      "source": "schema.org",
+      "human_verified": true
+    },
+    {
+      "id": "concept:neuroeconomics",
+      "mesh_id": "D055815",
+      "en": "Neuroeconomics",
+      "es": "Neuroeconomía",
+      "zh_Hans": "神经经济学",
+      "zh_Hant": "神經經濟學",
+      "semantic_equivalence": "partial",
+      "cultural_notes": "Terminology varies slightly in mainland China; term is well-established in academic contexts",
+      "related": ["behavioral economics", "decision neuroscience", "reward processing"],
+      "confidence": 0.93,
+      "source": "MeSH",
+      "human_verified": true
+    },
+    {
+      "id": "concept:criminology",
+      "mesh_id": "D003474",
+      "en": "Criminology",
+      "es": "Criminología",
+      "zh_Hans": "犯罪学",
+      "zh_Hant": "犯罪學",
+      "related": ["forensic psychology", "deviance", "penology"],
+      "confidence": 0.97,
+      "source": "MeSH",
+      "human_verified": true
+    }
+  ],
+  "embedding_metadata": {
+    "language": "multilingual",
+    "domains": ["neuroscience", "psychology", "public_health", "behavioral_economics"],
+    "tokenization": "multilingual-bert-compatible",
+    "vector_ready": true,
+    "zh_normalization": ["zh-Hans", "zh-Hant"]
+  },
+  "provenance": {
+    "created": "2026-05-18",
+    "last_updated": "2026-05-18",
+    "version": "1.0.0",
+    "author": "de la Serna Tuya, Juan Moisés",
+    "orcid": "0000-0002-8401-8018",
+    "license": "CC BY 4.0"
+  }
+}
