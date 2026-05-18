@@ -1,0 +1,210 @@
+{
+  "version": "1.0.0",
+  "description": "Neuroscience conceptual ontology with ZH-Hans / ZH-Hant alignment for research-hub-zh",
+  "author": "de la Serna Tuya, Juan Moisés",
+  "orcid": "0000-0002-8401-8018",
+  "license": "CC BY 4.0",
+  "created": "2026-05-18",
+  "domains": ["neuroscience", "neuropsychology", "cognitive science"],
+  "concepts": [
+    {
+      "id": "neuro:brain",
+      "mesh_id": "D001921",
+      "en": "Brain",
+      "es": "Cerebro",
+      "zh_Hans": "大脑",
+      "zh_Hant": "大腦",
+      "semantic_equivalence": "full",
+      "related_concepts": ["neuro:neuron", "neuro:cortex", "neuro:cognition"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH", "SNOMED CT"]
+      },
+      "confidence": 0.99
+    },
+    {
+      "id": "neuro:neuron",
+      "mesh_id": "D009474",
+      "en": "Neuron",
+      "es": "Neurona",
+      "zh_Hans": "神经元",
+      "zh_Hant": "神經元",
+      "semantic_equivalence": "full",
+      "related_concepts": ["neuro:synapse", "neuro:axon", "neuro:brain"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH"]
+      },
+      "confidence": 0.99
+    },
+    {
+      "id": "neuro:cognition",
+      "mesh_id": "D003071",
+      "en": "Cognition",
+      "es": "Cognición",
+      "zh_Hans": "认知",
+      "zh_Hant": "認知",
+      "semantic_equivalence": "full",
+      "related_concepts": ["neuro:memory", "neuro:attention", "neuro:executive_function"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH", "UMLS"]
+      },
+      "confidence": 0.99
+    },
+    {
+      "id": "neuro:memory",
+      "mesh_id": "D008568",
+      "en": "Memory",
+      "es": "Memoria",
+      "zh_Hans": "记忆",
+      "zh_Hant": "記憶",
+      "semantic_equivalence": "full",
+      "subtypes": {
+        "working_memory": {"zh_Hans": "工作记忆", "zh_Hant": "工作記憶"},
+        "long_term_memory": {"zh_Hans": "长期记忆", "zh_Hant": "長期記憶"},
+        "episodic_memory": {"zh_Hans": "情节记忆", "zh_Hant": "情節記憶"}
+      },
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH"]
+      },
+      "confidence": 0.99
+    },
+    {
+      "id": "neuro:attention",
+      "mesh_id": "D001288",
+      "en": "Attention",
+      "es": "Atención",
+      "zh_Hans": "注意力",
+      "zh_Hant": "注意力",
+      "semantic_equivalence": "full",
+      "cultural_notes": "Both zh-Hans and zh-Hant use the same character string 注意力",
+      "related_concepts": ["neuro:cognition", "neuro:executive_function"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH"]
+      },
+      "confidence": 0.99
+    },
+    {
+      "id": "neuro:executive_function",
+      "mesh_id": "D056450",
+      "en": "Executive Function",
+      "es": "Función Ejecutiva",
+      "zh_Hans": "执行功能",
+      "zh_Hant": "執行功能",
+      "semantic_equivalence": "full",
+      "related_concepts": ["neuro:cognition", "neuro:prefrontal_cortex", "neuro:planning"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH", "UMLS"]
+      },
+      "confidence": 0.98
+    },
+    {
+      "id": "neuro:neuroimaging",
+      "mesh_id": "D059906",
+      "en": "Neuroimaging",
+      "es": "Neuroimagen",
+      "zh_Hans": "神经影像学",
+      "zh_Hant": "神經影像學",
+      "semantic_equivalence": "full",
+      "subtypes": {
+        "fMRI": {"zh_Hans": "功能性磁共振成像", "zh_Hant": "功能性磁共振成像"},
+        "EEG": {"zh_Hans": "脑电图", "zh_Hant": "腦電圖"},
+        "PET": {"zh_Hans": "正电子发射断层扫描", "zh_Hant": "正電子發射斷層掃描"}
+      },
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH"]
+      },
+      "confidence": 0.98
+    },
+    {
+      "id": "neuro:neuroplasticity",
+      "mesh_id": "D009473",
+      "en": "Neuroplasticity",
+      "es": "Neuroplasticidad",
+      "zh_Hans": "神经可塑性",
+      "zh_Hant": "神經可塑性",
+      "semantic_equivalence": "full",
+      "cultural_notes": "Consistent terminology across zh-Hans and zh-Hant academic literature",
+      "related_concepts": ["neuro:learning", "neuro:brain", "neuro:synaptic_plasticity"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH"]
+      },
+      "confidence": 0.97
+    },
+    {
+      "id": "neuro:cognitive_decline",
+      "mesh_id": "D060825",
+      "en": "Cognitive Decline",
+      "es": "Deterioro Cognitivo",
+      "zh_Hans": "认知衰退",
+      "zh_Hant": "認知衰退",
+      "semantic_equivalence": "full",
+      "related_concepts": ["neuro:aging", "neuro:dementia", "neuro:alzheimer"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH", "ICD-11"]
+      },
+      "confidence": 0.97
+    },
+    {
+      "id": "neuro:dementia",
+      "mesh_id": "D003704",
+      "en": "Dementia",
+      "es": "Demencia",
+      "zh_Hans": "痴呆",
+      "zh_Hant": "失智症",
+      "semantic_equivalence": "partial",
+      "cultural_notes": "Important difference: mainland China uses 痴呆 while Taiwan prefers 失智症 (less stigmatizing term). This distinction matters for health communication.",
+      "related_concepts": ["neuro:cognitive_decline", "neuro:alzheimer"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH", "ICD-11", "SNOMED CT"]
+      },
+      "confidence": 0.96
+    },
+    {
+      "id": "neuro:stress",
+      "mesh_id": "D013315",
+      "en": "Psychological Stress",
+      "es": "Estrés Psicológico",
+      "zh_Hans": "心理压力",
+      "zh_Hant": "心理壓力",
+      "semantic_equivalence": "full",
+      "related_concepts": ["neuro:cortisol", "neuro:anxiety", "neuro:burnout"],
+      "translation": {
+        "generated_by": "human",
+        "reviewed_by": "human",
+        "terminology_standard": ["MeSH"]
+      },
+      "confidence": 0.98
+    }
+  ],
+  "normalization": {
+    "zh_Hans_encoding": "UTF-8",
+    "zh_Hant_encoding": "UTF-8",
+    "note": "Simplified (zh-Hans) and Traditional (zh-Hant) characters differ in tokenization and embeddings. Both forms provided for NLP compatibility."
+  },
+  "embedding_metadata": {
+    "language": "multilingual",
+    "domains": ["neuroscience", "neuropsychology"],
+    "tokenization": "multilingual-bert-compatible",
+    "vector_ready": true,
+    "zh_normalization": ["zh-Hans", "zh-Hant"]
+  }
+}
