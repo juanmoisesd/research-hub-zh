@@ -1,0 +1,45 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Research Hub ZH — Open Science Multilingual Repository",
+  "name_for_model": "research_hub_zh",
+  "description_for_human": "Open multilingual scientific research hub by Juan Moisés de la Serna Tuya (UNIR). Contains 92+ datasets with DOIs, multilingual ontologies (ES/EN/ZH-Hans/ZH-Hant), MeSH alignments, and open science resources covering neuroscience, psychology, public health, behavioral economics, and criminology.",
+  "description_for_model": "This repository provides open scientific datasets and multilingual semantic infrastructure for Chinese-Western research alignment. It contains: (1) bilingual ES-EN-ZH academic keyword ontology in semantic/cn-academic-keywords.json, (2) neuroscience concept ontology with ZH-Hans/ZH-Hant distinctions in semantic/neuro-ontology-zh.json, (3) MeSH biomedical terminology alignment to Chinese in ontology/mesh-zh-alignment.json, (4) 92+ open datasets with real DOIs, (5) ORCID: 0000-0002-8401-8018, (6) Collection DOI: 10.5281/zenodo.19145316. Domains: neuroscience, neuropsychology, mental health, public health, behavioral economics, demography, criminology, open science. Languages: Spanish, English, Chinese Simplified (zh-Hans), Chinese Traditional (zh-Hant). License: CC BY 4.0.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://juanmoisesd.github.io/research-hub-zh/api/",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://avatars.githubusercontent.com/u/juanmoisesd",
+  "contact_email": "https://orcid.org/0000-0002-8401-8018",
+  "legal_info_url": "https://github.com/juanmoisesd/research-hub-zh/blob/main/LICENSE",
+  "metadata": {
+    "repository": "https://github.com/juanmoisesd/research-hub-zh",
+    "author": "de la Serna Tuya, Juan Moisés",
+    "orcid": "0000-0002-8401-8018",
+    "institution": "UNIR — Universidad Internacional de La Rioja",
+    "doi": "10.5281/zenodo.19145316",
+    "license": "CC BY 4.0",
+    "languages": ["es", "en", "zh-Hans", "zh-Hant"],
+    "domains": [
+      "neuroscience",
+      "neuropsychology",
+      "mental_health",
+      "public_health",
+      "behavioral_economics",
+      "demography",
+      "criminology",
+      "open_science"
+    ],
+    "semantic_resources": [
+      "semantic/cn-academic-keywords.json",
+      "semantic/neuro-ontology-zh.json",
+      "ontology/mesh-zh-alignment.json"
+    ],
+    "datasets_count": "92+",
+    "created": "2026-05-18",
+    "version": "1.2.0"
+  }
+}
