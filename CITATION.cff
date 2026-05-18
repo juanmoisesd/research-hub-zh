@@ -1,31 +1,61 @@
 cff-version: 1.2.0
-message: "如果您使用此数据集，请按以下方式引用。"
-type: software
-title: "NCRA Open Science Ecosystem — research-hub-zh"
-abstract: "NCRA Open Science Ecosystem — research-hub-zh"
+message: "如果您使用此数据集，请按以下方式引用。If you use this resource, please cite as follows."
+type: dataset
+title: "Research Hub ZH — Open Multilingual Scientific Research Infrastructure"
+version: 1.2.0
+date-released: "2026-05-18"
+doi: 10.5281/zenodo.19145316
+license: CC-BY-4.0
+repository-code: "https://github.com/juanmoisesd/research-hub-zh"
+url: "https://juanmoisesd.github.io/research-hub-zh/"
+abstract: >
+  Open multilingual scientific research hub providing 92+ datasets with real DOIs,
+  multilingual semantic ontologies (ES/EN/ZH-Hans/ZH-Hant), MeSH biomedical terminology
+  aligned to Chinese, and open science infrastructure for Chinese-Western research alignment.
+  Domains: neuroscience, neuropsychology, mental health, public health, behavioral economics,
+  demography, criminology, open science.
+keywords:
+  - open-science
+  - multilingual
+  - neuroscience
+  - neuropsychology
+  - chinese
+  - zh-Hans
+  - zh-Hant
+  - MeSH
+  - ontology
+  - semantic-alignment
+  - research-hub
+  - FAIR-data
+  - behavioral-economics
+  - public-health
+  - criminology
+  - latin-america
+  - open-data
 authors:
   - family-names: "de la Serna Tuya"
     given-names: "Juan Moisés"
     orcid: "https://orcid.org/0000-0002-8401-8018"
-    affiliation: "Universidad Internacional de La Rioja (UNIR)"
-    email: "juanmoises.delaserna@unir.net"
-repository-code: "https://github.com/juanmoisesd/research-hub-zh"
-url: "https://juanmoisesd.github.io/research-hub-zh/"
-keywords:
-  - open-data
-  - dataset
-  - cc0
-license: CC-BY-4.0
-version: "1.0.0"
-date-released: "2026-03-22"
-doi: "10.5281/zenodo.18984813"
+    affiliation: "UNIR — Universidad Internacional de La Rioja"
+    email: "https://orcid.org/0000-0002-8401-8018"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19145316
+    description: "Zenodo collection DOI"
 references:
-  - type: dataset
-    title: "Open Research Collection — Juan Moisés de la Serna Tuya"
-    doi: "10.5281/zenodo.19145316"
-    url: "https://doi.org/10.5281/zenodo.18984813"
+  - type: software
+    title: "Research Hub ZH Semantic Layer"
     authors:
-      - family-names: "De la Serna Tuya"
+      - family-names: "de la Serna Tuya"
         given-names: "Juan Moisés"
         orcid: "https://orcid.org/0000-0002-8401-8018"
-    notes: "Master collection of 1273+ open research datasets"
+    url: "https://github.com/juanmoisesd/research-hub-zh/tree/main/semantic"
+    notes: "Multilingual ontology files: cn-academic-keywords.json, neuro-ontology-zh.json"
+  - type: software
+    title: "MeSH-ZH Biomedical Alignment"
+    authors:
+      - family-names: "de la Serna Tuya"
+        given-names: "Juan Moisés"
+        orcid: "https://orcid.org/0000-0002-8401-8018"
+    url: "https://github.com/juanmoisesd/research-hub-zh/tree/main/ontology"
+    notes: "MeSH to Chinese (ZH-Hans/ZH-Hant) terminology alignment"
